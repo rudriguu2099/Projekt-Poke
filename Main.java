@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        Pokemon pokemon = new Pokemon(100, Type.CHARIZARD, Rarity.LEGENDARY, 3, 60.2);
+        System.out.println(pokemon.attack(pokemon));
     }
 }

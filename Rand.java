@@ -9,4 +9,9 @@ public class Rand {
         }
         return rand.nextDouble() * 100 < chance;
     }
+
+    public static int boolToInt(boolean bool) {
+        if(bool) return 1;
+        return 0;
+    }
 }
